@@ -1,6 +1,6 @@
 # Usage Guide (Illustrated)
 
-For educational use only. Use it only for content you own or have explicit permission to download. Platform accounts are not provided; please prepare and log in with your own.
+For educational use only. Use it only for content you own, published, or have explicit permission to download. Platform accounts are not provided; please prepare and log in with your own.
 
 ## Supported Sites
 - Video button: X/Twitter post pages, Xiaohongshu `/explore/`, and generic pages with direct MP4 `<video>` tags. Instagram video is not supported.

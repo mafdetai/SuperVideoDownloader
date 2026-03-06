@@ -1,7 +1,7 @@
 # 使用教程（图文）
 
-本教程仅供学习使用，且仅用于你**拥有权利或明确授权**的内容下载。平台账号不提供，请自行准备并登录。
-For educational use only. Use it only for content you own or have explicit permission to download. Platform accounts are not provided; please prepare and log in with your own.
+本教程仅供学习使用，且仅用于你**拥有、发布或已明确授权**的内容下载。平台账号不提供，请自行准备并登录。
+For educational use only. Use it only for content you own, published, or have explicit permission to download. Platform accounts are not provided; please prepare and log in with your own.
 
 ## 支持平台 / Supported Sites
 - 视频按钮：X/Twitter 具体帖子页、小红书 `/explore/`、带直链 MP4 `<video>` 的通用网页；不支持 Instagram 视频。  
