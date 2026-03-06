@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Twitter Video Downloader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 12px;
+      width: 320px;
+      color: #1f2937;
+    }
+    h1 {
+      font-size: 14px;
+      margin: 0 0 8px 0;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      margin: 8px 0 4px 0;
+      color: #374151;
+    }
+    select, button {
+      width: 100%;
+      padding: 8px;
+      font-size: 13px;
+    }
+    button {
+      margin-top: 10px;
+      background: #111827;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:disabled {
+      background: #6b7280;
+      cursor: not-allowed;
+    }
+    .status {
+      margin-top: 10px;
+      font-size: 12px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>视频下载</h1>
+
+  <button id="downloadBtn">下载当前页面视频</button>
+  <button id="downloadImagesBtn" style="margin-top:8px;">下载帖子图片(全量)</button>
+  <button id="downloadImagesPreciseBtn" style="margin-top:8px;">下载帖子图片(精确)</button>
+  <div class="status" style="margin-top:8px;color:#6b7280;">
+    仅用于你拥有权利或已授权的内容
+  </div>
+  <div id="batchControls" style="margin-top:8px; display:none;">
+    <button id="continueBatchBtn" style="margin-top:6px;">继续下载下一批(20)</button>
+    <button id="stopBatchBtn" style="margin-top:6px;background:#6b7280;">停止</button>
+  </div>
+  <div class="status" id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

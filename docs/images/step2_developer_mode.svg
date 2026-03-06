@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f7f7f5"/>
+  <rect x="80" y="80" width="1040" height="540" rx="18" fill="#ffffff" stroke="#1f1f1f" stroke-width="3"/>
+  <rect x="80" y="80" width="1040" height="56" rx="18" fill="#1f1f1f"/>
+  <text x="120" y="116" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#ffffff">Extensions</text>
+
+  <text x="130" y="210" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f1f1f">步骤 2：开启开发者模式</text>
+  <text x="130" y="260" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333">打开右上角的 Developer mode / 开发者模式</text>
+
+  <rect x="820" y="210" width="230" height="60" rx="30" fill="#16a34a"/>
+  <circle cx="1010" cy="240" r="22" fill="#ffffff"/>
+  <text x="840" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#ffffff">Developer mode</text>
+
+  <rect x="130" y="330" width="900" height="180" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="160" y="375" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#475569">扩展列表（示意）</text>
+  <rect x="160" y="400" width="800" height="24" rx="6" fill="#cbd5e1"/>
+  <rect x="160" y="440" width="720" height="24" rx="6" fill="#e2e8f0"/>
+  <rect x="160" y="480" width="760" height="24" rx="6" fill="#e2e8f0"/>
+</svg>

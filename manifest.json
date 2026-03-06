@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "supervideodownloaderforchrome",
+  "version": "0.1.0",
+  "author": "anonymous",
+  "description": "Download video from a page.",
+  "permissions": ["activeTab", "downloads", "storage", "tabs", "scripting", "webRequest"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "https://*.twitter.com/*",
+    "https://*.x.com/*",
+    "https://api.vxtwitter.com/*",
+    "https://api.fxtwitter.com/*",
+    "https://api.bugpk.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Download Twitter Video"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
