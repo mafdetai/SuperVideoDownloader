@@ -1,7 +1,7 @@
 # supervideodownloaderforchrome
 
 用于下载已授权内容的轻量 Chrome/Edge 扩展。Lightweight Chrome/Edge extension for authorized downloads.
-只需三步：下载 Releases 里的压缩包并解压，浏览器打开扩展管理页并开启开发者模式，加载未打包的扩展程序后启用即可使用。
+只需三步：下载 Releases 里的压缩包并解压，浏览器打开扩展管理页并开启开发者模式，加载未打包的扩展程序后启用即可使用。（图片与视频）
 
 ## 功能
 - 在目标页面点击扩展按钮，尝试解析视频链接并下载。
