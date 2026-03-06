@@ -3,6 +3,32 @@
 一个用于在你**拥有权利或明确授权**的前提下下载视频的小型 Chrome 扩展。  
 A small Chrome extension that helps download video **only when you have the rights or explicit permission** to do so.
 
+## What It Does / 功能
+- 在目标页面点击扩展按钮，尝试解析视频链接并下载。  
+  On a supported page, click the extension button to try to resolve a video URL and download it.
+
+## How To Load (Unpacked) / 如何加载未打包扩展
+1. 打开 Chrome 或 Edge 并访问扩展页：  
+   - Chrome: `chrome://extensions/`  
+   - Edge: `edge://extensions/`  
+   Open Chrome or Edge and go to the extensions page:
+   - Chrome: `chrome://extensions/`
+   - Edge: `edge://extensions/`
+2. 开启 **Developer mode / 开发者模式**。  
+   Enable **Developer mode**.
+3. 点击 **Load unpacked / 加载已解压的扩展程序**。  
+   Click **Load unpacked**.
+4. 选择项目根目录（包含 `manifest.json` 的目录）。  
+   Select the project root (the folder that contains `manifest.json`).
+
+## Usage / 使用方法
+1. 访问目标视频页面（如 `https://x.com/<user>/status/<id>`）。  
+   Visit a supported page (e.g., `https://x.com/<user>/status/<id>`).
+2. 点击扩展图标。  
+   Click the extension icon.
+3. 点击“下载 / Download”。  
+   Click “Download”.
+
 ## Important Notice / 重要提示 (Please Read)
 - 本项目仅供学习使用，并仅用于个人用途。  
   This project is provided for learning and personal use.
@@ -16,11 +42,6 @@ A small Chrome extension that helps download video **only when you have the righ
   Platform accounts are not provided; please prepare and log in with your own.
 - 作者不鼓励或支持任何形式的侵权行为。  
   The author does not encourage or endorse copyright infringement.
-
-## What It Does / 功能
-- 在目标页面点击扩展按钮，尝试解析视频链接并下载。  
-  On a supported page, click the extension button to try to resolve a video URL and download it.
-
 ## Supported Sites / 支持范围
 - 视频按钮支持 X/Twitter（具体帖子页）、小红书（`/explore/`），以及带直链 `<video>` 的通用网页；Instagram 视频不支持。  
   Video button supports X/Twitter (post pages), Xiaohongshu (`/explore/`), and generic pages with direct `<video>` MP4; Instagram video is not supported.
@@ -79,28 +100,6 @@ A small Chrome extension that helps download video **only when you have the righ
 ## Acknowledgements / 特别鸣谢
 - 感谢公开可用的第三方解析服务与社区资源。  
   Thanks to publicly available parsing services and community resources.
-
-## How To Load (Unpacked) / 如何加载未打包扩展
-1. 打开 Chrome 或 Edge 并访问扩展页：  
-   - Chrome: `chrome://extensions/`  
-   - Edge: `edge://extensions/`  
-   Open Chrome or Edge and go to the extensions page:
-   - Chrome: `chrome://extensions/`
-   - Edge: `edge://extensions/`
-2. 开启 **Developer mode / 开发者模式**。  
-   Enable **Developer mode**.
-3. 点击 **Load unpacked / 加载已解压的扩展程序**。  
-   Click **Load unpacked**.
-4. 选择项目根目录（包含 `manifest.json` 的目录）。  
-   Select the project root (the folder that contains `manifest.json`).
-
-## Usage / 使用方法
-1. 访问目标视频页面（如 `https://x.com/<user>/status/<id>`）。  
-   Visit a supported page (e.g., `https://x.com/<user>/status/<id>`).
-2. 点击扩展图标。  
-   Click the extension icon.
-3. 点击“下载 / Download”。  
-   Click “Download”.
 
 ## Tutorial / 图文教程
 - 中文图文教程：`docs/usage_zh.md`
